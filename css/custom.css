@@ -1,0 +1,195 @@
+
+@font-face{
+	font-family: Klavika;
+	src: url(../fonts/Klavika-Regular.otf);
+	font-weight: 300;
+}
+
+@font-face{
+	font-family: Klavika;
+	src: url(../fonts/Klavika-Bold.otf);
+	font-weight: 600;
+}
+
+@font-face{
+	font-family: Klavika;
+	src: url(../fonts/Klavika-Light.otf);
+	font-weight: 100;
+}
+
+body{
+	font-family: Klavika, arvo, "Helvetica neue", serif;
+	font-size: 16px;
+}
+
+
+.navbar{
+	background-color: transparent;
+	border: none;
+	margin-bottom: 0;
+	padding-top: 10px;
+}
+
+.navbar-brand img{
+	width: 90%;
+	max-width: 353px;
+
+}
+
+
+.navbar-inverse .navbar-nav>li>a{
+	color: #fefefe;
+	opacity: 0.7;
+	text-transform: uppercase;
+	padding-top: 25px;
+	padding-bottom: 10px;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+
+
+.jumbotron{
+	background: url('../images/Background.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top: 170px;
+	padding-bottom: 170px;
+	border-top: 3px solid #e74c3c;
+	margin-top: -65px;
+}
+
+.jumbotron h1{
+	padding: 10px;
+	text-align: center;
+	margin: 10px 20px;
+	font-weight: 600;
+	font-size: 50px;
+	text-transform: uppercase;
+	color: white;
+	background-color: rgba(0,0,0,0.2);
+	text-shadow: 1px 1px 2px #333;
+	margin-bottom: 0;
+}
+
+#bottom-section .col-sm-4{
+	min-height: 300px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-top: -30px;
+	text-align: center;
+	padding-top: 20%;
+
+}
+
+#bottom-section .col-sm-4:hover{
+	opacity: 0.9;
+}
+
+#bottom-section .col-sm-4 p{
+	color: white;
+	font-family: Klavika, arvo, serif;
+	font-size: 18px;
+	font-weight: 100;
+	margin-bottom: 10px;
+}
+
+#bottom-section a:hover{
+	text-decoration: none;
+}
+
+#bottom-section .col-sm-4 .btn-success{
+	background-color: #27ae60;
+	margin-bottom: 5px;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+#byfw{
+	background-image: url('../images/Byfw.jpg');
+	background-color: #e74c3c;
+}
+
+#baw{
+	background-image: url('../images/Baw.png');
+	background-color: #f39c12;
+}
+
+#oml{
+	background-image: url('../images/Oml.jpg');
+	background-color: #f1c40f;
+}
+
+footer{
+	background-color: #333;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-weight: 200;
+	color: #fefefe;
+}
+
+footer p{
+	margin-top: 5px;
+}
+
+footer a{
+	color: #333;
+}
+
+.highlight{
+	color: #e74c3c;
+}
+
+.right-align{
+	text-align: right;
+}
+
+.right-align .fa-circle{
+	color: grey;
+}
+
+.fa-stack .fa:hover{
+	color: blue;
+}
+
+
+/*responsive design*/
+
+@media (max-width: 760px) {
+	#bottom-section .col-sm-4{
+		min-height: 425px;
+		padding-top: 55%;
+		padding-bottom: 5px;
+	}
+
+	.jumbotron h1 {
+		font-size: 25px;
+	}
+
+	.navbar-brand {
+		width: 50%;
+	}
+
+	.navbar-brand img {
+		width: 220px;
+	}
+
+	.navbar-inverse .navbar-brand {
+		border: none;
+	}
+
+	.jumbotron {
+		margin-top: -186px;
+		padding-top: 210px;
+		padding-bottom: 90px;
+	}
+
+}
+
+
+
+
+
+
